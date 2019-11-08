@@ -64,26 +64,21 @@ h1, h2, h3, h4, h5 {
 }
 
 
+/*___________________________________ MY CODE STARTS HERE!______________________________________ */
 
-
-
-/* MY CODE STARTS HERE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 .parent-container {
 	margin: 0px;
 	width: 100%;
 	border: 2px solid black;
-
 }
 
-body {
-	
+body {	
 	margin: 7%;
 	height: 1000px;
-
 }
+
 .logo-box {
 	border: 2px solid black;
-	
 }
 
 .navigation {
@@ -92,18 +87,14 @@ body {
 	justify-content: space-around;
 	border: 2px solid black;
 }
-.header-container {
-	display: flex:
-	flex-direction: row;
-	justify-content: space-around;
-	width: 100%;
-	border: 2px solid black;
 
+.header-container {
+	display: flex;
+	flex-wrap: wrap;
+	border: 2px solid black;
 }
 
 .title {
-	display: inline;
-	margin: 0 auto;
 	border: 2px solid black;
 }
 
@@ -113,25 +104,21 @@ h1 {
 
 /* round image goes here */
 .round-image {
-	display: inline;
-	margin-left: 55%;
+	display: flex;
+	justify-content: flex-end;
 	width: 35%;
 	border: 2px solid black;
 }
 
-
 .top-text {
 	border: 2px solid black;
 	width: 49%;
-
 }
 
 /* wide image goes here */
-
 .bottom-text {
 	border: 2px solid black;
 	width: 33%;
-
 }
 
 .contact-section {
