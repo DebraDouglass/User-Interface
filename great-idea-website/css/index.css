@@ -69,64 +69,50 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 .parent-container {
+	margin: 0px;
 	width: 100%;
-		
+	border: 2px solid black;
+
 }
 
+.logo-box {
+	border: 2px solid black;
+	
+}
 
+.header-container {
+	width: 49%;
+	border: 2px solid black;
 
+}
 
+/* button goes here */
 
+/* round image goes here */
 
+.top-text {
+	border: 2px solid black;
+	width: 49%;
 
+}
 
+/* wide image goes here */
 
+.bottom-text {
+	border: 2px solid black;
+	width: 33%;
 
-
-
-
-
-
+}
 
 .contact-section {
-	border-top: 1px dashed black;
-	padding: 20px 0;
+	border-top: 1px solid black;
+	padding: 0px;
   }
   
-  .contact-section h2 {
-	padding: 0;
-	margin: 0 0 10px 0;
-  }
-  
-  /*======= Create a selector for the address tag in the contact-section class to have the following styles:*/
-  address {
-	 line-height: 1.5;
-  }
-  
-  footer {
-	width: 100%;
-	background: #F87B99;
-	border-top: 1px dashed white;
-  }
-  
-  footer .footer-content { 
-	margin: 0 auto; 
-	/* create a width property. Set the value to 600px */
-	width: 600px;
-  }
-  
-  footer .footer-content h3 {
-	padding: 0;
-	margin: 20px 0;
-  }
-  
-  
-  footer {
+  .footer-content {
 	margin: 0px;
-	color: black;
-  }
-  
-  footer .footer-content .copyright {
-	padding: 20px 0;
 	text-align: center;
+	width: 100%;
+	padding: 0;
+	border: 1px solid black;
   }
