@@ -63,4 +63,80 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 /*___________________________________ MY CODE STARTS HERE!______________________________________ */
-.
+.main-container {
+	width: 100%;
+
+}
+
+.nav-bar {
+	width: 99%
+	display: inline-block;
+	border: 2px solid black;	
+}
+
+.logo {
+	display: inline-block;
+	text-align: right;
+	width: 83
+	height: 30
+}
+.main-box {
+	display: inline-block;
+	width: 49%;
+	border: 2px solid black;
+}
+
+.round-image {
+	display: inline-block;
+	width: 49%;
+	border: 2px solid black;
+}
+
+.features-text {
+	display: inline-block;
+	  background-color: orange;
+	  width: 49%;
+	  height: 50px;
+	  padding: 10px;
+	  margin: 10px;
+}
+
+.about-text {
+	display: inline-block;
+	  background-color: pink;
+	  width: 49%;
+	  height: 50px;
+	  padding: 10px;
+	  margin: 10px;
+}
+
+.services-text {
+	width: 33%;
+	border: 2px solid black;
+}
+
+.product-text {
+	width: 33%;
+	border: 2px solid black;
+}
+
+.vision-text {
+	width: 33%;
+	border: 2px solid black;
+}
+
+.mid-image {
+	border: 2px solid black;
+}
+
+.bottom-text {
+	border: 2px solid black;
+}
+
+.contact {
+	border: 2px solid black
+}
+
+.footer {
+	border: 2px solid black;
+}
