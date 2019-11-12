@@ -66,25 +66,12 @@ h1, h2, h3, h4, h5 {
 /*__________ MY CODE STARTS HERE!_____________________ */
 
 .wrapper {
-	display: inline-block;
-	width: 1000px;
-}
-.nav-bar {
-	display: inline-block;
-	width: 85%;
-	height: 100px;
-	margin: 5px;
-	border: 2px solid black;	
-}
+	box-sizing: border-box;
+	width: 850px;
+    margin: 0 auto;
+    margin-top: 5em;}
 
-.logo {
-	width: 15%;
-	height: 100px;
-	margin: 5px;
-	border: 2px solid black;
-}
-
-.header-box {
+.left-box {
 	display: inline-block;
 	  background-color: orange;
 	  width: 400px;
@@ -93,14 +80,14 @@ h1, h2, h3, h4, h5 {
 	  margin: 10px;
 }
 
-.image-box {
+/* .image-box {
 	display: inline-block;
 	  background-color: hot pink;
 	  width: 49%;
 	  height: 180px;
 	  padding: 10px;
 	  margin: 10px;
-}
+} */
 
 .features-text {
 	display: inline-block;
