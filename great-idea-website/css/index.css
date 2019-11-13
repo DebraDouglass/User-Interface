@@ -64,77 +64,64 @@ h1, h2, h3, h4, h5 {
 }
 
 /*__________ MY CODE STARTS HERE!_____________________ */
-
 .wrapper {
 	box-sizing: border-box;
-	width: 850px;
-    margin: 0 auto;
-    margin-top: 5em;}
-
-.left-box {
-	display: inline-block;
-	  background-color: orange;
-	  width: 400px;
-	  height: 180px;
-	  padding: 10px;
-	  margin: 10px;
+	width: 990px;
+	margin: 0 auto;
+}
+	
+.container {
+	display: flex;
+	justify-content: space-between;
 }
 
-/* .image-box {
-	display: inline-block;
+nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+.text-box {
+	font-size: 70px;
+	padding-top: 150px;
+	background-color: orange;
+}
+
+.image-box {
 	  background-color: hot pink;
-	  width: 49%;
-	  height: 180px;
-	  padding: 10px;
-	  margin: 10px;
-} */
+}
 
 .features-text {
-	display: inline-block;
 	  background-color: greenyellow;
-	  width: 400px;
-	  height: 180px;
 	  padding: 10px;
 	  margin: 10px;
 }
 
 .about-text {
-	display: inline-block;
 	  background-color: paleturquoise;
-	  width: 400px;
-	  height: 180px;
 	  padding: 10px;
 	  margin: 10px;
 }
 
 .services-text {
-	display: inline-block;
 	  background-color: paleturquoise;
-	  width: 33%;
-	  height: 180px;
 	  padding: 10px;
 	  margin: 10px;
 }
 
 .product-text {
-	display: inline-block;
 	  background-color: paleturquoise;
-	  width: 33%;
-	  height: 180px;
 	  padding: 10px;
 	  margin: 10px;
 }
 
 .vision-text {
-	display: inline-block;
 	  background-color: paleturquoise;
-	  width: 33%;
-	  height: 180px;
 	  padding: 10px;
 	  margin: 10px;
 }
 
 .mid-image {
+	width: 100%;
 	border: 2px solid black;
 }
 
