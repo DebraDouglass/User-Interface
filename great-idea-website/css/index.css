@@ -98,15 +98,15 @@ nav a {
 
 .round-image {
 	width: 50%;
-	margin-top: 20px;
-	padding-left: 55px;
+	padding-top: 50px;
+	padding-left: 50px;
 	padding-bottom: 62px;
+	margin-top: 20px;
 	/* border: 1px solid black; */
 }
 
 .top-text {
-	padding: 20px;
-	margin-top: 10px;
+	padding: 40px;
 	border-top: 1px solid black;
 }
 
@@ -119,14 +119,14 @@ nav a {
 
 .wide-image {
 	width: 999px;
-	padding-top: 20px;
+	/* padding-top: 20px;
 	padding-left: 50px;
-	padding-bottom: 20px;
+	padding-bottom: 20px; */
 	/* border: 1px solid black; */
 }
 
 .contact {
-	padding-top: 20px;
+	padding-top: 30px;
 	width: 999px;
 	/* border: 1px solid black; */
 }
