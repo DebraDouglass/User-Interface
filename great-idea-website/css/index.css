@@ -71,80 +71,69 @@ h1, h2, h3, h4, h5 {
 	justify-content: space-between;
 	align-items: center;
 	width: 999px;
-	border: 1px solid black;
+	/* border: 1px solid black; */
 }
 
 nav a {
 	padding: 20px;
 	font-size: 17px;
 	color: grey;
-	border: 1px solid black;
+	/* border: 1px solid black; */
 }
 
 .logo {
 	padding: 10px;
-	border: 1px solid black;
+	/* border: 1px solid black; */
 }
 
-.top-text {
+.title-text {
 	font-size: 70px;
 	text-align: center;
-	width: 49%;
+	width: 50%;
+	margin-top: 20px;
 	padding-top: 50px;
-	padding-bottom: 39px;
-	border: 1px solid black;
+	padding-bottom: 100px;
+	/* border: 1px solid black; */
 }
 
 .round-image {
-	width: 49%;
-	padding-left:50px;
-	border: 1px solid black;
+	width: 50%;
+	margin-top: 20px;
+	padding-left: 55px;
+	padding-bottom: 62px;
+	/* border: 1px solid black; */
 }
 
-.features-text {
-	  padding: 10px;
-	  margin: 10px;
-	  border: 1px solid black;
+.top-text {
+	padding: 20px;
+	margin-top: 10px;
+	border-top: 1px solid black;
 }
 
-.about-text {
-	  padding: 10px;
-	  margin: 10px;
-	  border: 1px solid black;
+.bottom-text {
+	padding: 20px;
+	padding-bottom: 40px;
+	margin-top: 10px;
+	border-bottom: 1px solid black;
 }
 
 .wide-image {
-	margin-left: 50px;
 	width: 999px;
-	justify-content: center;
-	border: 1px solid black;
-}
-
-.services-text {
-	  padding: 10px;
-	  margin: 10px;
-	  border: 1px solid black;
-}
-
-.product-text {
-	  padding: 10px;
-	  margin: 10px;
-	  border: 1px solid black;
-}
-
-.vision-text {
-	  padding: 10px;
-	  margin: 10px;
-	  border: 1px solid black;
+	padding-top: 20px;
+	padding-left: 50px;
+	padding-bottom: 20px;
+	/* border: 1px solid black; */
 }
 
 .contact {
+	padding-top: 20px;
 	width: 999px;
-	border: 1px solid black;
+	/* border: 1px solid black; */
 }
 
 .copyright {
+	padding-top: 20px;
 	width: 999px;
 	text-align: center;
-	border: 1px solid black;
+	/* border: 1px solid black; */
 }
