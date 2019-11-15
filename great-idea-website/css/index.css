@@ -66,48 +66,38 @@ h1, h2, h3, h4, h5 {
 /*__________ MY CODE STARTS HERE!_____________________ */
 
 
-
-
 .container {
 	display: flex;
 	justify-content: space-between;
-	box-sizing: border-box;
-	/* width: 1024px; */
+	align-items: center;
 	width: 999px;
 	border: 1px solid black;
-}
-
-header {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 15px;
-	border: 1px solid black;
-	width: 100%;
 }
 
 nav a {
 	padding: 20px;
 	font-size: 17px;
-	color: black;
-	border: 1px solid black;
-
-}
-
-.top-text-box {
-	font-size: 70px;
-	text-align: center;
-	padding-top: 150px;
-	padding-left: 50px;
+	color: grey;
 	border: 1px solid black;
 }
 
 .logo {
-	padding: 20px;
+	padding: 10px;
+	border: 1px solid black;
+}
+
+.top-text {
+	font-size: 70px;
+	text-align: center;
+	width: 49%;
+	padding-top: 50px;
+	padding-bottom: 39px;
 	border: 1px solid black;
 }
 
 .round-image {
+	width: 49%;
+	padding-left:50px;
 	border: 1px solid black;
 }
 
@@ -115,13 +105,19 @@ nav a {
 	  padding: 10px;
 	  margin: 10px;
 	  border: 1px solid black;
-
 }
 
 .about-text {
 	  padding: 10px;
 	  margin: 10px;
 	  border: 1px solid black;
+}
+
+.wide-image {
+	margin-left: 50px;
+	width: 999px;
+	justify-content: center;
+	border: 1px solid black;
 }
 
 .services-text {
@@ -142,21 +138,13 @@ nav a {
 	  border: 1px solid black;
 }
 
-.mid-image {
-	box-sizing: border-box;
-	padding-left: 10px;
-	margin-left: 5px;
-	border: 1px solid black;
-}
-
-.bottom-text {
-	border: 1px solid black;
-}
-
 .contact {
+	width: 999px;
 	border: 1px solid black;
 }
 
-.footer {
+.copyright {
+	width: 999px;
+	text-align: center;
 	border: 1px solid black;
 }
